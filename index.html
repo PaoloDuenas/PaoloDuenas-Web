@@ -13,10 +13,159 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Practica1 Paolo</title>
 </head>
-<body>
-    <h1>Hola mundo</h1>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark fixed-top" style="background-color: rgb(49, 49, 49);">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="">
+                <i class="bi bi-film" st></i> Absolute Cinema</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Cards-->
+
+    <div class="align-items-center justify-content-center">
+        <div class="grid text-center mx-5 px-5 my-5 py-5">
+            <div class="row">
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3" style="max-width: 18rem" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/BatmanCN.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dark card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/ElPadrino.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/FightClub.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/ForrestGump.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/InglouriousBasterds.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/Interstellar.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+        
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/PulpFiction.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card border-light text-bg-dark py-2 px-2 mx-2 my-3 " style="max-width: 18rem;" data-bs-target="#AbsoluteCinemaPOP" data-bs-toggle="modal">
+                    <img src="img/SW-ImpC.webp" class="card-img-top" alt="...">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-->
+    <div class="modal" tabindex="-1" id="AbsoluteCinemaPOP">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Absolute Cinema</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ratio ratio-16x9">
+                    <img src="img/absolute-cinema.webp" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
